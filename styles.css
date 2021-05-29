@@ -29,7 +29,7 @@
 }
 
 .navbar ul li a {
-  display: inline;
+  display: inline-block;
   color: #ccc;
   text-decoration: none;
   padding: 5px;
@@ -40,7 +40,7 @@
   color: #f37eed;
 }
 .navbar ul .active a {
-  color: #e71bdd;
+  color: #f37eed;
 }
 
 .social a {
@@ -106,7 +106,7 @@
   line-height: 1.7rem;
 }
 /*for small screens*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 460px) {
   .body-about {
     background-size: 150%;
     background-position: center;
