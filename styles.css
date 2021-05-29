@@ -162,10 +162,11 @@
   transform: scale(0.95);
 }
 .column img {
-  margin-top: 8px;
+  margin-top: 10px;
   vertical-align: middle;
   width: 100%;
   transition: transform 500ms;
+  border: 1px gray solid;
 }
 .column .title {
   width: 100%;
